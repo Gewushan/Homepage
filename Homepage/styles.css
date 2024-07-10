@@ -1,0 +1,72 @@
+nav {
+    align-items: center;
+    background-color: rgb(236, 237, 241);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    margin: 20px 0;
+}
+
+
+
+.nav-link a {
+    color: white;
+    font-size: 15px;
+}
+
+nav li:hover {
+    background-color: rgb(44, 41, 41);
+    color: black;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+h1 {
+    font-family: 'Audiowide', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    animation-name: sample;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* animation code */
+@keyframes sample {
+    0% {color: white;}
+    25% {color: red;}
+    50% {color: red;}
+    100% {color: white;}
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 270px;
+    height: 390px;
+}
+
+body {
+    background-image: url("bg.webp");
+    background-repeat: repeat;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Papyrus",fantasy;
+    font-style: normal;
+    margin-left: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    color: white;
+}
